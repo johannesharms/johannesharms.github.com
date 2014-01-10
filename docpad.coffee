@@ -12,25 +12,24 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://johannesharms.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.johannesharms.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Johannes Harms"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Johannes works in usability engineering and writes his PhD on web form design.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				homepage, web forms, usability, hci
 				"""
 
 			# The website's styles
@@ -49,7 +48,7 @@ docpadConfig = {
 
 
 		# -----------------------------
-		# Helper Functions
+		# Template Helper Functions
 
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title
@@ -101,10 +100,13 @@ docpadConfig = {
 				else
 					next()
 
+	# =================================
+	# DocPad Plugins
 
 	plugins:
 
 		menu:
+			# configuration example, see https://github.com/sergeche/docpad-plugin-menu/blob/master/src/menu.plugin.coffee
 			menuOptions:
 				optimize: false
 				skipEmpty: true

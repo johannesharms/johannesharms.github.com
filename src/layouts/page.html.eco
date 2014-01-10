@@ -1,0 +1,13 @@
+---
+layout: empty
+---
+
+<nav typeof="SiteNavigationElement">
+	<%- @partial('menu.html.eco', {menuItems: @generateMenu(@document.url)}) %>
+</nav>
+
+<h1 property="headline"><%= @document.title %></h1>
+
+<article property="mainContentOfPage" typeof="WebPageElement">
+<%- @content %>
+</article>
