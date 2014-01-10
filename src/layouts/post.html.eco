@@ -1,0 +1,22 @@
+---
+layout: empty
+---
+
+<nav typeof="SiteNavigationElement">
+	<%- @partial('menu.html.eco', {menuItems: @generateMenu(@document.url)}) %>
+</nav>
+
+<article property="mainContentOfPage" typeof="Article" class="blogpost">
+
+<% if @document.title: %><h1 property="headline"><%= @document.title %></h1><% end %>
+
+<p class="post-info">
+  <% if @document.author: %><span class="author"><%= @document.author %></span>
+	<% else: %><a class="author" href="http://johannesharms.com/" property="author">Johannes Harms</a><% end %>
+  <% if @document.date: %>, <span class="date" property="dateCreated"><%= @postDatetime(@document.date) %></span><% end %>
+</p>
+
+<%- @content %>
+</article>
+
+

@@ -1,6 +1,6 @@
 # Import
 moment = require('moment')
-
+truncatise = require('truncatise')
 
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
@@ -80,10 +80,14 @@ docpadConfig = {
 
 		getExcerpt: (content) ->            
 			i = content.search('<!-- Read more -->')
-			if i >= 0
-				content[0..i-1]                
-			else
-				content
+			excerpt = if i >= 0 then content[0..i-1] else content
+			truncatise excerpt, {
+				TruncateLength: 50, 
+				TruncateBy : "words", 
+				Strict : false, 
+				StripHTML : true, 
+				Suffix : ''
+			}
 
 		hasExcerpt: (content) ->
 			content.search('<!-- Read more -->') >= 0

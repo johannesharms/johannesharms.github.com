@@ -18,7 +18,7 @@ menuTitle: 'Stuff'
 		<li class="teaser">
 			<h3><a href="<%= post.url %>"><%= post.title %></a></h3>
 			<% if post.sticky != true: %><p class="post-info"><%= @postDatetime(post.date) %></p><% end %>
-			<%- @getExcerpt(String(post.contentRenderedWithoutLayouts)) %>
+			<p><%- @getExcerpt(String(post.contentRenderedWithoutLayouts)) %></p>
 			<p class="more"><a href="<%= post.url %>">Read more...</a></p>
 		</li>
 		<% end %>

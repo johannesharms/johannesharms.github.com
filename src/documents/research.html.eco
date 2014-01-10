@@ -10,6 +10,13 @@ menuTitle: 'Research'
 
 <h1 property="headline"><%= @document.title %></h1>
 
+<p>My research interests include human-computer interaction, usability, user experience, and web engineering. 
+	I have been working in this field with the <a href="http://deco.inso.tuwien.ac.at">DECO</a> research group since 2009. 
+	I am now writing my PhD thesis about web form design,
+	exploring innovative ways to improve the usability and interactivity of form-filling interfaces.
+</p>
+
+
 <div typeof="Blog">
 	
 	<section class="left">
@@ -18,7 +25,7 @@ menuTitle: 'Research'
 		<li class="teaser">
 			<h3><a href="<%= post.url %>"><%= post.title %></a></h3>
 			<% if post.sticky != true: %><p class="post-info"><%= @postDatetime(post.date) %></p><% end %>
-			<%- @getExcerpt(String(post.contentRenderedWithoutLayouts)) %>
+			<p><%- @getExcerpt(String(post.contentRenderedWithoutLayouts)) %></p>
 			<p class="more"><a href="<%= post.url %>">Read more...</a></p>
 		</li>
 		<% end %>
