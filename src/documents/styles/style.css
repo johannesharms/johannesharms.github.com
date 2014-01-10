@@ -135,6 +135,7 @@ b,
 
 blockquote {
 	font-style: italic;
+	margin: 0;
 	padding: 1em 0;
 }
 
