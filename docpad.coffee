@@ -1,5 +1,7 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+# See http://docpad.org/docs/config
+
 docpadConfig = {
 
 	# =================================
@@ -72,8 +74,18 @@ docpadConfig = {
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
 
+		getExcerpt: (content) ->            
+			i = content.search('<!-- Read more -->')
+			if i >= 0
+				content[0..i-1]                
+			else
+				content
+
+		hasExcerpt: (content) ->
+			content.search('<!-- Read more -->') >= 0
+
 	# =================================
-	# DocPad Events
+	# Events
 
 	# Here we can define handlers for events that DocPad fires
 	# You can find a full listing of events on the DocPad Wiki
@@ -100,8 +112,21 @@ docpadConfig = {
 				else
 					next()
 
+
 	# =================================
-	# DocPad Plugins
+	# Collections
+
+	collections:
+
+		research: ->
+			@getCollection("html").findAllLive({relativeOutDirPath: 'posts', category: 'research'},[{date:-1}])
+
+		stuff: ->
+			@getCollection("html").findAllLive({relativeOutDirPath: 'posts', category: $ne: 'research'},[{date:-1}])
+
+
+	# =================================
+	# Plugins
 
 	plugins:
 
@@ -110,7 +135,11 @@ docpadConfig = {
 			menuOptions:
 				optimize: false
 				skipEmpty: true
-				skipFiles: ///\.js|\.css///
+				skipFiles: ///
+					\.js |
+					\.css |
+					^posts
+				///
 
 
 }

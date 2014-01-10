@@ -6,7 +6,7 @@ layout: empty
 	<%- @partial('menu.html.eco', {menuItems: @generateMenu(@document.url)}) %>
 </nav>
 
-<h1 property="headline"><%= @document.title %></h1>
+<% if @document.title: %><h1 property="headline"><%= @document.title %></h1><% end %>
 
 <article property="mainContentOfPage" typeof="WebPageElement">
 <%- @content %>

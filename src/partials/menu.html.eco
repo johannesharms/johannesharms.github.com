@@ -1,5 +1,5 @@
 <% renderMenu = (items) => %>
-<ul>
+<ol class="nav">
     <% for item, idx in items: %>
         <li class="<% if item.state == 'current': %>active<% end %> <% if idx == 0: %>first<% end %>">
             <div class="bkg"></div>
@@ -11,7 +11,7 @@
             <% end %>
         </li>
     <% end %>
-</ul>   
+</ol>   
 <% end %>
 
 <%= renderMenu @menuItems %>

@@ -1,0 +1,22 @@
+---
+layout: 'page'
+title: 'Stuff'
+menuTitle: 'Stuff'
+---
+
+
+<div typeof="Blog">
+	
+	<section class="left">
+		<ul class="post-list">
+		<% for post in @getCollection("stuff").toJSON(): %>
+		<li class="teaser">
+			<h3><a href="<%= post.url %>"><%= post.title %></a></h3>
+			<% if post.sticky != true: %><p class="post-info"><%= post.date %></p><% end %>
+			<%- @getExcerpt(String(post.contentRenderedWithoutLayouts)) %>
+			<p class="more"><a href="<%= post.url %>">Read more...</a></p>
+		</li>
+		<% end %>
+		</ul>
+	</section>
+</div>
