@@ -1,0 +1,17 @@
+<% renderMenu = (items) => %>
+<ul>
+    <% for item, idx in items: %>
+        <li class="<% if item.state == 'current': %>active<% end %> <% if idx == 0: %>first<% end %>">
+            <div class="bkg"></div>
+            <a href="<%= item.url %>"><%= item.title %></a>
+
+            <!-- Render submenu if item has children -->
+            <% if item.children: %>
+                <%- renderMenu(item.children) %>
+            <% end %>
+        </li>
+    <% end %>
+</ul>   
+<% end %>
+
+<%= renderMenu @menuItems %>

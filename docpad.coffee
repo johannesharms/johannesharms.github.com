@@ -100,6 +100,17 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+
+
+	plugins:
+
+		menu:
+			menuOptions:
+				optimize: false
+				skipEmpty: true
+				skipFiles: ///\.js|\.css///
+
+
 }
 
 # Export our DocPad Configuration

@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Johannes Harms'
+menuTitle: 'Home'
 ---
 
 <article property="mainContentOfPage" typeof="WebPageElement">
@@ -20,6 +21,7 @@ title: 'Johannes Harms'
 </header>
 
 <nav typeof="SiteNavigationElement" class="right">
+	<%- @partial('menu.html.eco', {menuItems: @generateMenu(@document.url)}) %>
 </nav>
 
 <section class="right">
