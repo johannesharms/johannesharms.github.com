@@ -1,3 +1,7 @@
+# Import
+moment = require('moment')
+
+
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 # See http://docpad.org/docs/config
@@ -84,6 +88,9 @@ docpadConfig = {
 		hasExcerpt: (content) ->
 			content.search('<!-- Read more -->') >= 0
 
+		postDatetime: (date, format="YYYY-MM-DD") -> return moment(date).format(format)
+		postDate: (date, format="MMMM DD, YYYY") -> return moment(date).format(format)
+
 	# =================================
 	# Events
 
@@ -141,6 +148,11 @@ docpadConfig = {
 					^posts
 				///
 
+			moment:
+				formats: [
+					{ raw: 'date', format: 'MMMM Do YYYY', formatted: 'humanDate' }
+					{ raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate' }
+				]
 
 }
 
