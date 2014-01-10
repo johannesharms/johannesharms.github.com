@@ -1,0 +1,8 @@
+myExtraExcludes = "*.tmp"
+excludeInFileChooser  = "{$excludeInFileChooser,$myExtraExcludes,node_modules,out}"
+excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes,node_modules,out}"
+excludeInBrowser      = "{$excludeInBrowser,$myExtraExcludes}"
+
+TM_TODO_IGNORE = 'node_modules|vendor'
+
+includeInBrowser = '{$includeInBrowser,.gitignore}'
