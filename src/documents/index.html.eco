@@ -1,0 +1,81 @@
+---
+layout: 'default'
+title: 'Johannes Harms'
+---
+
+<article property="mainContentOfPage" typeof="WebPageElement">
+<div typeof="Person">
+
+<header class="left">
+	<h1><span class="marker-green" property="name">Johannes Harms</span></h1>
+	<h2 property="jobTitle">Usability &amp; Web Design</h2>
+
+	<% comment = => %>
+	<div class="portrait">
+		<img src="img/photo.png" width="300" height="300"/>
+		<p class="sorry">I still need to find a proper picture, sorry.</p>
+	</div> 
+	<p>...contact info, temporarily moved down below...</p>
+	<% end %>
+</header>
+
+<nav typeof="SiteNavigationElement" class="right">
+</nav>
+
+<section class="right">
+	<h3>
+		<span>
+			Johannes works in usability engineering <br/>
+			and writes his PhD on web form design. 
+		</span>
+	</h3>
+</section>
+		
+<section class="right">
+	<blockquote>&ldquo;We all like well-designed things. For most of us, this extends to easy-to-use software.&rdquo;</blockquote>
+
+	<h4>Education</h4>
+	<p>I graduated from my master studies in computer science at <a href="http://www.tuwien.ac.at" target="_blank" property="alumniOf">Vienna University of Technology</a> and I am now working on my PhD. 
+		I also studied theology at <a href="http://www.capernwray.org.uk" target="_blank" property="alumniOf">Capernwray Bible School</a>, UK, for a year,
+		but eventually chose to become a software designer / usability engineer.
+	</p>
+
+	<h4>Technology</h4>
+	<p>I like to engage with the latest web technologies. The projects I have been working on allowed me to gain a lot of experience with tools such as js, css, html, jsf, php, version control, and photoshop.</p>
+		
+	<h4>User Experience</h4>
+	<p>Technology is a means to an end: to create well-designed software that people like. 
+		Since 2009, I have been following this passion working as a Usability Engineer with <a href="http://www.rise-world.com/" target="_blank" property="worksFor">RISE GmbH</a>.</p>
+	
+	<h4>Doctoral thesis</h4>
+	<p>In my PhD thesis at the <a href="http://deco.inso.tuwien.ac.at" target="_blank" property="memberOf">DECO</a> research group, I explore innovative ways of improving the usability and interactivity of web forms. Through this work I aim to demonstrate that good design can turn filling web forms into a pleasant experience.</p>
+</section>
+
+<section class="right">
+	<p><br/>
+	<% comment = => %>
+		protection of my email address using http://hivelogic.com/enkoder/
+	<% end %>
+	<script type="text/javascript">
+	//<![CDATA[
+	<!--
+	var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+	"=51){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+	".substr(0,ol);}f(\")001,\\\"AIC^TK520\\\\\\\\\\\\N430\\\\730\\\\410\\\\@630" +
+	"\\\\100\\\\130\\\\310\\\\100\\\\330\\\\200\\\\010\\\\310\\\\500\\\\310\\\\r" +
+	"\\\\310\\\\ +=<(55:fun\\\\9=2?4j.#($(9k420\\\\z?16&2.2O630\\\\730\\\\`WSXUR" +
+	"620\\\\[U320\\\\W\\\\\\\\020\\\\K@H_t\\\\v420\\\\MKRLP300\\\\000\\\\}Mp}3ov" +
+	"hxpds{zrz~zOznm771\\\\dfk=iqhjcl\\\"\\\\\\\"\\\\@230\\\\630\\\\010\\\\120\\" +
+	"\\X620\\\\JW\\\\\\\\530\\\\630\\\\420\\\\400\\\\600\\\\430\\\\230\\\\B730\\" +
+	"\\400\\\\410\\\\500\\\\220\\\\500\\\\n\\\\000\\\\\\\"(f};o nruter};))++y(^)" +
+	"i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;2=*y))y+001(>i(fi{)++i;l<i;0=i" +
+	"(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                         ;
+	while(x=eval(x));
+	//-->
+	//]]>
+	</script>
+	</p>
+</section>
+
+</div>
+</article>

@@ -18,16 +18,16 @@
 	<%- @getBlock('meta').toHTML() %>
 
 	<!-- DocPad Styles + Our Own -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
-<body>
+<body vocab="http://schema.org/" prefix="schema: http://schema.org/ prism: http://prismstandard.org/namespaces/basic/3.0/" typeof="WebPage">
 	<!--[if lt IE 7]>
 	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<header></header>
 	<article>
 		<%- @content %>
 	</article>
