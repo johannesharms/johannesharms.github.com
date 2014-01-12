@@ -1,0 +1,26 @@
+---
+layout: 'post'
+title: 'Compiling CRRCSim on Mac OS 10.9 Mavericks'
+---
+
+
+
+I am happy because I compiled the "CRRCSim":http://sourceforge.net/apps/mediawiki/crrcsim/ flight simulator to run on Mac OS 10.9 "Mavericks". CRRCSim is an open source RC flight simulator. Using a flight simulator instead of a real plane boils down to being able to crash while learning - and being able to crash again instead of spending hours to glue a physical plane's parts together again. 
+
+*To get started quickly*: 
+Download a binary release from the "Releases in my CRRCSim Github repository":https://github.com/johannesjh/crrcsim-mac/releases and enjoy.
+Btw, my setup is that I connected my "Spektrum DX 6i":http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPM6610 remote control using a cheapo "USB Interface Cable":http://www.ebay.de/itm/USB-Kabel-Interface-Simulator-Spektrum-DX5e-DX6-DX6i-DX7-DX8-Walkera-ESky-FMS-/260872227127 to my Macbook. 
+
+
+*To compile yourself*: 
+See "build instructions":https://github.com/johannesjh/crrcsim-mac/blob/master/build-instructions.sh in my github repo. You basically need to install "MacPorts":http://www.macports.org/ (I could not get it to work using "homebrew":http://brew.sh/) to install a few dependencies, download the CRRCSim source code, apply a patch to help the crrcsim binary locate files, compile, copy and relink dynamic libraries, and build the app bundle. All of this could probably be done in a much more elegant way using XCode, but I found the brute commandline approach has also worked sufficiently well.
+
+Happy flying!
+
+<div class="figure">
+	<img src="/img/crrcsim/crrcsim-mac-screenshot.png" width="100%"/>
+	<p class="caption">
+		Screenshot of CRRCSim running on Mac OS 10.9 Mavericks.
+	</p>
+</div>
+
