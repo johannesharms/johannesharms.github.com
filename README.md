@@ -1,37 +1,10 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com/) skeleton for [DocPad](https://github.com/bevry/docpad)
-Bare essentials for building a modern website with best practices
+# Source Code of the [johannesharms.com](http://johannesharms.com/) website
 
+This repository contains the source code of the website [johannesharms.com](http://johannesharms.com/).
 
-## Getting Started
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://johannesharms.com" property="cc:attributionName" rel="cc:attributionURL">Johannes Harms</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/johannesharms/johannesharms.github.com/" rel="dct:source">https://github.com/johannesharms/johannesharms.github.com/</a>.
 
-1. [Install DocPad](https://github.com/bevry/docpad)
+The website is built using:
+* [DocPad](https://github.com/bevry/docpad)
+* [HTML5 Boilerplate](http://html5boilerplate.com/) skeleton for [DocPad](https://github.com/bevry/docpad)
 
-1. Clone the project and run the server
-
-	``` bash
-	git clone git://github.com/docpad/html5-boilerplate.docpad.git
-	cd html5-boilerplate.docpad
-	npm install
-	docpad run
-	```
-
-1. [Open http://localhost:9778/](http://localhost:9778/)
-
-1. Start hacking away by modifying the `src` directory
-
-
-## License
-
-This skeleton is made ["public domain"](http://en.wikipedia.org/wiki/Public_domain) using the [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/), as such before you publish your website you should place your desired license here and within the `LICENSE.md` file.
-
-If you are wanting to open-source your website, we suggest using the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) for content and the [MIT License](http://creativecommons.org/licenses/MIT/) for code. In which case you'd probably want to use the following as your license:
-
-	Unless stated otherwise, all content is licensed under the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) and code licensed under the [MIT License](http://creativecommons.org/licenses/MIT/), © [Your Name](http://your.website)
-
-If you are wanting to close-source your website, we'd suggest using the following:
-
-	Copyright [Your Name](http://your.website). All rights reserved.
-
-Other included things such as themes and libraries are likely already licensed by their own invidual licenses, so be sure to respect their licenses too.
-
-Thanks, the DocPad team loves you.

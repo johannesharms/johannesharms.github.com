@@ -54,6 +54,8 @@ menuTitle: 'Home'
 
 <section class="right">
 	<p><br/>
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">creative commons licensed</a>, 
+
 	<% comment = => %>
 		protection of my email address using http://hivelogic.com/enkoder/
 	<% end %>

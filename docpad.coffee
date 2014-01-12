@@ -162,6 +162,9 @@ docpadConfig = {
 					{ raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate' }
 				]
 
+
+	ignoreCustomPatterns:
+		///^_///
 }
 
 # Export our DocPad Configuration
