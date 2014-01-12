@@ -141,6 +141,10 @@ docpadConfig = {
 
 	plugins:
 
+		ghpages:
+			deployRemote: 'origin'
+			deployBranch: 'master'
+
 		menu:
 			# configuration example, see https://github.com/sergeche/docpad-plugin-menu/blob/master/src/menu.plugin.coffee
 			menuOptions:
