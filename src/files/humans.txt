@@ -1,15 +1,10 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Johannes Harms -- Autor der Seite -- johannesharms.com
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
+    Docpad
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
