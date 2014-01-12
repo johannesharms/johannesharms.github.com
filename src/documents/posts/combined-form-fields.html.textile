@@ -1,0 +1,45 @@
+---
+layout: post
+category: research
+title: Combined input fields
+---
+
+Combined input fields allow for a change in perspective: Traditionally, forms are split into many, small fields to ease automated data processing. This technical approach can result in forms that are cumbersome to fill, because instead of just providing the information they wish, users must adapt to to form schema and find the correct fields to fill. This post highlights innovative form designs with combined input fields: There is only one field to fill, and this field is smart enough to parse the information as required for further processing.
+
+
+h2. Combined Input Fields in Search Forms
+
+<div class="figure">
+<img src="/img/combined-form-fields/apple-mail.png" style="max-width: 400px;"/>
+<p class="caption">
+Apple's Mail.app features a smart search field that parses user input and matches it to what would otherwise be separate form fields of a complex search form: Entire message text, subject, sender and recepient, attachments, mailbox names.
+</p>
+</div>
+
+Scientific work on the topic includes Tjin-Kam-Jet et. al [[1]], where the authors propose a combined input fields design for a flight search form. 
+
+
+h2. Combined Input Fields in Productity Applications
+
+Surprisingly, the typical, form-heavy domains (e-Health, e-Government) that would benefit most from improved form design do not feature combined input fields. This can have many reasons:
+
+* Combined form fields are certainly more difficult to build than "ye goode olde static web forms".
+* Accessibility is easiest to guarantee in simple UIs.
+* Introducing a new design is a project risk. 
+* Lastly, the benefit of the new design has not been proven (yet).
+
+To tackle the last one of the above named issues, we set out to examine combined form fields in the context of productivity or business applications. During the past year, I have been (co-)supervising C. Auernig's diploma thesis [[2]] in this area of research. He implemented a prototype with combined form fields in the example domain of social network profile pages. Results show that users could employ the combined form fields without any assistance and with similar performance as in regular form designs. 
+
+<div class="figure">
+<img src="/img/combined-form-fields/profile-form.png"/>
+<p class="caption">
+Prototype for a social network profile page featuring combined input fields. What would otherwise be a fieldset with multiple input fields has been combined into one, large text field. Assistive autocompletion helps the users to match their input to the underlying form schema. Screenshot taken from [[2]].
+</p>
+</div>
+
+
+h2. Literature
+
+[<a id="fn1">1</a>] Tjin-Kam-Jet, K. T. T. E., Trieschnigg, R. B., and Hiemstra, D. (2011). Onebox: Free-text interfaces as an alternative to complex web forms. Technical Report TR-CTIT-11-01, Centre for Telematics and Information Technology University of Twente, Enschede.
+
+[<a id="fn2">2</a>] Auernig, C. (2013). Kombinierte Formularfelder in Produktivitäts-Anwendungen. Master’s thesis, supervised by Karin Kappel and Johannes Harms.
