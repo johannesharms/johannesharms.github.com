@@ -10,8 +10,10 @@ menuTitle: 'Home'
 	<h1><span class="marker-green" property="name">Johannes Harms</span></h1>
 	<h2 property="jobTitle">Usability &amp; Web Design</h2>
 
-	<div class="portrait">
-		<img src="img/photo.jpg" width="300" height="300"/>
+	<div class="portrait" typeof="Photograph">
+		<img src="img/photo.jpg" width="300" height="300" itemprop="image"/>
+		<meta itemprop="description" content="Johannes Harms">
+		<meta itemprop="about" content="Johannes Harms">
 	</div> 
 	<p>
 	<% comment = => %>
