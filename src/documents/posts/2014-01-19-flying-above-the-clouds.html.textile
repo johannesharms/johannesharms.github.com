@@ -1,0 +1,12 @@
+---
+layout: 'post'
+title: 'Flying above the clouds'
+date: 2014-01-19
+---
+
+
+Beautiful video of an RC plane flying high above the clouds into the sunset.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/W8tYjBlCxUg" frameborder="0" allowfullscreen></iframe>
+
+By "FliteTest":http://youtu.be/W8tYjBlCxUg on Youtube.
