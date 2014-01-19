@@ -1,6 +1,7 @@
 ---
 layout: 'post'
 title: 'Compiling CRRCSim on Mac OS 10.9 Mavericks'
+date: 2014-01-12
 ---
 
 
