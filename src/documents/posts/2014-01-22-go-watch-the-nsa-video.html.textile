@@ -1,0 +1,12 @@
+---
+layout: 'post'
+title: 'Go watch the NSA video!'
+date: 2014-01-22
+---
+
+
+Go watch the NSA video! A short documentary that is easy to understand.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/2YsZoqwRnKE" frameborder="0" allowfullscreen></iframe>
+
+By "TheNSAVideo.com":thensavideo.com on Youtube.
