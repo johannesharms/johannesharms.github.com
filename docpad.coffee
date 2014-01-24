@@ -162,6 +162,9 @@ docpadConfig = {
 					{ raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate' }
 				]
 
+		# rss:
+		# 	collection: 'html',  # optional, this is the default
+		# 	url: '/rss.xml' # optional, this is the default
 
 	ignoreCustomPatterns:
 		///^_///

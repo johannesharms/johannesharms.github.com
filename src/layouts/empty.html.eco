@@ -16,6 +16,7 @@
 
 	<!-- DocPad Meta -->
 	<%- @getBlock('meta').toHTML() %>
+	<link rel="alternate" type="application/rss+xml" title="johannesharms.com" href="/rss.xml" />
 
 	<!-- DocPad Styles + Our Own -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
