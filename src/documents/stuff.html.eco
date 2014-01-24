@@ -2,6 +2,7 @@
 layout: 'empty'
 title: 'Stuff'
 menuTitle: 'Stuff'
+keywords: blog
 ---
 
 <nav typeof="SiteNavigationElement">

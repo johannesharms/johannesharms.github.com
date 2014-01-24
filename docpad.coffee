@@ -35,7 +35,7 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				homepage, web forms, usability, hci
+				johannes harms
 				"""
 
 			# The website's styles

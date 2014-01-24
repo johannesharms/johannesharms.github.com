@@ -3,6 +3,7 @@ layout: post
 category: research
 title: Combined input fields
 date: 2014-01-12
+keywords: web forms, input fields, combined fields
 ---
 
 Combined input fields allow for a change in perspective: Traditionally, forms are split into many, small fields to ease automated data processing. This technical approach can result in forms that are cumbersome to fill, because instead of just providing the information they wish, users must adapt to to form schema and find the correct fields to fill. This post highlights innovative form designs with combined input fields: There is only one field to fill, and this field is smart enough to parse the information as required for further processing.
