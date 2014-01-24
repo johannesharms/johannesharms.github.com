@@ -46,11 +46,11 @@ docpadConfig = {
 			]
 
 			# The website's scripts
-			scripts: [
-				'/vendor/log.js'
-				'/vendor/modernizr.js'
-				'/scripts/script.js'
-			]
+			# scripts: [
+			# 	'/vendor/log.js'
+			# 	'/vendor/modernizr.js'
+			# 	'/scripts/script.js'
+			# ]
 
 
 		# -----------------------------
