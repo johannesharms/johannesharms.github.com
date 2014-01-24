@@ -57,21 +57,22 @@ keywords: usability engineering, web form design
 <section class="right">
 	<blockquote>&ldquo;We all like well-designed things. For most of us, this extends to easy-to-use software.&rdquo;</blockquote>
 
+	<h4>User Experience</h4>
+	<p>One great goal is to create well-designed software that people like. 
+		Since 2009, I have been following this passion working as a Usability Engineer with <a href="http://www.rise-world.com/" target="_blank" property="worksFor">RISE GmbH</a>.</p>
+	
+	<h4>Technology</h4>
+	<p>I like to engage with the latest web technologies. The projects I have been working on allowed me to gain a lot of experience with tools such as js, css, html, jsf, php, version control, and photoshop.</p>
+	
+	<h4>Doctoral thesis</h4>
+	<p>In my PhD thesis at the <a href="http://deco.inso.tuwien.ac.at" target="_blank" property="memberOf">DECO</a> research group, I explore innovative ways of improving the usability and interactivity of web forms. Through my <a href="research.html">research</a>, I aim to demonstrate that good design can turn filling web forms into a pleasant experience.</p>
+
 	<h4>Education</h4>
 	<p>I graduated from my master studies in computer science at <a href="http://www.tuwien.ac.at" target="_blank" property="alumniOf">Vienna University of Technology</a> and I am now working on my PhD. 
 		I also studied theology at <a href="http://www.capernwray.org.uk" target="_blank" property="alumniOf">Capernwray Bible School</a>, UK, for a year,
 		but eventually chose to become a software designer / usability engineer.
 	</p>
 
-	<h4>Technology</h4>
-	<p>I like to engage with the latest web technologies. The projects I have been working on allowed me to gain a lot of experience with tools such as js, css, html, jsf, php, version control, and photoshop.</p>
-		
-	<h4>User Experience</h4>
-	<p>Technology is a means to an end: to create well-designed software that people like. 
-		Since 2009, I have been following this passion working as a Usability Engineer with <a href="http://www.rise-world.com/" target="_blank" property="worksFor">RISE GmbH</a>.</p>
-	
-	<h4>Doctoral thesis</h4>
-	<p>In my PhD thesis at the <a href="http://deco.inso.tuwien.ac.at" target="_blank" property="memberOf">DECO</a> research group, I explore innovative ways of improving the usability and interactivity of web forms. Through my <a href="research.html">research</a>, I aim to demonstrate that good design can turn filling web forms into a pleasant experience.</p>
 </section>
 
 <section class="right">
