@@ -130,10 +130,18 @@ docpadConfig = {
 	collections:
 
 		research: ->
-			@getCollection("html").findAllLive({relativeOutDirPath: 'posts', category: 'research'},[{date:-1}])
+			@getCollection("html").findAllLive({
+				relativeOutDirPath: 'posts'
+				category: 'research'
+				layout: $ne: 'redirect'
+			},[{date:-1}])
 
 		stuff: ->
-			@getCollection("html").findAllLive({relativeOutDirPath: 'posts', category: $ne: 'research'},[{date:-1}])
+			@getCollection("html").findAllLive({
+				relativeOutDirPath: 'posts'
+				category: $ne: 'research'
+				layout: $ne: 'redirect'
+			},[{date:-1}])
 
 
 	# =================================
