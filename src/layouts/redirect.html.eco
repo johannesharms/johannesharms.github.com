@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!-- Redirect meta tag -->
+	<meta http-equiv="Refresh" content="0; url=<%= @document.redirect %>">
+
+  <!-- If the meta tag doesn't work, try JavaScript to redirect. -->
+	<script type="text/javascript">
+		window.location.href = "<%= @document.redirect %>"
+	</script>
+
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Site Properties -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+
+	<!-- DocPad Meta -->
+	<%- @getBlock('meta').toHTML() %>
+	<link rel="alternate" type="application/rss+xml" title="johannesharms.com" href="/rss.xml" />
+
+	<!-- DocPad Styles + Our Own -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+<body vocab="http://schema.org/" prefix="schema: http://schema.org/ prism: http://prismstandard.org/namespaces/basic/3.0/" typeof="WebPage">
+	<!-- If JavaScript doesn't work, give a link to click on to redirect. -->
+	<p>If you are not redirected automatically, click <a href="<%= @document.redirect %>">here</a>.</p>
+</body>
+</html>
