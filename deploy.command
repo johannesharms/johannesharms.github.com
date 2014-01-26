@@ -13,7 +13,7 @@ git fetch --tags
 rm -rf $OUT
 mkdir $OUT
 cp -r .git $OUT/.git
-pushd out
+pushd out > /dev/null
 git checkout --track origin/master
 git reset --hard origin/master
 popd > /dev/null
@@ -23,7 +23,7 @@ docpad generate --env static
 
 # commit the out folder's contents
 pushd $OUT > /dev/null
-git add -A
+git add -A --force
 git commit -m "`date`"
 git push -f
 popd > /dev/null
