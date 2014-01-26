@@ -8,6 +8,12 @@ truncatise = require('truncatise')
 
 docpadConfig = {
 
+	outPath: 'out'
+	srcPath: 'src'
+
+	regenerateDelay: 10
+
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -148,10 +154,6 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
-
-		ghpages:
-			deployRemote: 'origin'
-			deployBranch: 'master'
 
 		menu:
 			# configuration example, see https://github.com/sergeche/docpad-plugin-menu/blob/master/src/menu.plugin.coffee

@@ -47,7 +47,6 @@
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-partials": "~2.8.1",
     "docpad-plugin-menu": "~2.1.0",
-    "docpad-plugin-ghpages": "~2.4.3",
     "docpad-plugin-moment": "~2.0.2",
     "docpad-plugin-textile": "~2.0.1",
     "docpad-plugin-coffeescript": "~2.2.3",
