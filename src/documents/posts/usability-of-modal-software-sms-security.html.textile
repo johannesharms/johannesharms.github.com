@@ -19,8 +19,8 @@ Today I have accidentally sent a love message to a friend and colleague of mine.
 
 I think the above mockup explains pretty well what happened this morning. The result is awkward and embarrassing. And a nice example of how bad usability destroys security - "the mode error did not kill anybody":http://www.azarask.in/blog/post/is_visual_feedback_enough_why_modes_kill/, but a private message was read by an uninteded recepient!
 
-I now use the "TextSecure":https://github.com/WhisperSystems/TextSecure/ app instead: When I close and re-open the app, it exits the old mode. It avoids confusion by showing contact pictures of the people I am texting with. Furthermore, the app offers encrypted communication, provided the recipient also uses TextSecure. 
+I now use the "TextSecure":https://github.com/WhisperSystems/TextSecure/ app instead: When I close and re-open the app, it does not open previous conversations but exits the old mode. It furthermore helps to avoid confusion by showing contact pictures of the people I am texting with. It even offers encrypted communication, provided the recipient also uses TextSecure. 
 
-Conclusion: I heavily recommend against modal user interface design and for using "TextSecure":https://github.com/WhisperSystems/TextSecure/.
+Conclusion: I heavily recommend against modal user interface design and for using sms apps that hinder sending embarrassing messages.
 
 [<a id="fn1">1</a>] Raskin, J. (2000). The humane interface: new directions for designing interactive systems, page 42. Addison-Wesley Professional.
