@@ -1,0 +1,24 @@
+---
+layout: 'post'
+title: 'Usability of modal software and SMS security'
+date: 2014-01-26
+keywords: modes, modal software, ui design, usability, sms, texting, text messaging, app, recipient, security
+---
+
+
+Today I have accidentally sent a love message to a friend and colleague of mine. I blame it on the modal user interface of my default Android texting app.
+
+"Modal user interfaces":http://en.wikipedia.org/wiki/Mode_(computer_interface) are "modal with respect to a given gesture when (1) the current state of the interface is not the user's locus of attention and (2) the interface will execute one among several different responses to the gesture, depending on the system's current state" [[1]]. The text messaging (sms) app that came with my Android phone uses modes to remember the recipient.
+
+<div class="figure">
+	<img src="/img/usability-of-modal-software/mockup.png" style="width: 100%; height: auto;"/>
+	<p class="caption">
+		The modal user interface of Android's default text messaging app. The recipient is implicitely determined by the current thread.
+	</p>
+</div>
+
+I think the above mockup explains pretty well what happened this morning. The result is awkward and embarrassing. And a nice example of how bad usability destroys security (a private message was read by an uninteded recepient!). I now use the "TextSecure":https://github.com/WhisperSystems/TextSecure/ app instead. When I close and re-open the app, it leaves the old mode, and it shows contact pictures of the people I am texting with. Furthermore, the app offers encrypted communication given the recipient is also using TextSecure. 
+
+Conclusion: I heavily recommend against modal user interface design and for using "TextSecure":https://github.com/WhisperSystems/TextSecure/.
+
+[<a id="fn1">1</a>] Raskin, J. (2000). The humane interface: new directions for designing interactive systems, page 42. Addison-Wesley Professional.
