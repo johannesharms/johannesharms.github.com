@@ -17,7 +17,9 @@ Today I have accidentally sent a love message to a friend and colleague of mine.
 	</p>
 </div>
 
-I think the above mockup explains pretty well what happened this morning. The result is awkward and embarrassing. And a nice example of how bad usability destroys security (a private message was read by an uninteded recepient!). I now use the "TextSecure":https://github.com/WhisperSystems/TextSecure/ app instead. When I close and re-open the app, it leaves the old mode, and it shows contact pictures of the people I am texting with. Furthermore, the app offers encrypted communication given the recipient is also using TextSecure. 
+I think the above mockup explains pretty well what happened this morning. The result is awkward and embarrassing. And a nice example of how bad usability destroys security - a private message was read by an uninteded recepient!
+
+I now use the "TextSecure":https://github.com/WhisperSystems/TextSecure/ app instead: When I close and re-open the app, it exits the old mode. It avoids confusion by showing contact pictures of the people I am texting with. Furthermore, the app offers encrypted communication, provided the recipient also uses TextSecure. 
 
 Conclusion: I heavily recommend against modal user interface design and for using "TextSecure":https://github.com/WhisperSystems/TextSecure/.
 
