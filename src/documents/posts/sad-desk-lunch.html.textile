@@ -1,0 +1,20 @@
+---
+layout: 'post'
+title: 'Sad desk lunch'
+date: 2014-01-31
+keywords: food fotography, lonely, lunch, office
+---
+
+
+I stumbled on a "food blog depicting lonely office lunches":http://saddesklunch.com/.
+
+According to the blog, "62% of American office workers usually eat their lunch in the same spot they work all day". I bet this holds true for many countries.
+
+
+<div class="figure">
+	<img src="/img/sad-desk-lunch/sad-desk-lunch.jpg" width="100%"/>
+	<p class="caption">
+		Sad desk lunch. 
+		Photo from the "Sad Desk Lunch":http://saddesklunch.com/post/72782788344/what-we-talk-about-when-we-talk-about-your website.
+	</p>
+</div>
