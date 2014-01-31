@@ -13,6 +13,7 @@ docpadConfig = {
 
 	regenerateDelay: 10
 
+	poweredByDocPad: false
 
 	# =================================
 	# Template Data
@@ -172,9 +173,16 @@ docpadConfig = {
 					{ raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate' }
 				]
 
-		# rss:
-		# 	collection: 'html',  # optional, this is the default
-		# 	url: '/rss.xml' # optional, this is the default
+		rss:
+			default:
+				collection: 'html',  # optional, this is the default
+				url: '/rss.xml' # optional, this is the default
+			research:
+				collection: 'research',
+				url: '/research.xml'
+			stuff:
+				collection: 'stuff',
+				url: '/stuff.xml'
 
 	ignoreCustomPatterns:
 		///^_///
