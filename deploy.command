@@ -15,6 +15,7 @@ mkdir $OUT
 cp -r .git $OUT/.git
 pushd out > /dev/null
 git checkout --track origin/master
+git checkout master
 git reset --hard origin/master
 popd > /dev/null
 
