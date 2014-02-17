@@ -1,0 +1,19 @@
+---
+layout: 'post'
+title: 'Rechargeable batteries work great for Apples magic mouse and wireless keyboard'
+date: 2014-01-31
+keywords: rechargeable, batteries, apple, magic mouse, wireless keyboard
+---
+
+
+As an environmentally friendly solution, I wanted to use rechargeable 1.2V NiMH cells instead of the (regular, non-rechargeable) 1.5V batteries. Long story short: I bought a set of Sanyo Eneloop rechargeable batteries. Luckily, they do work great!
+
+
+<div class="figure">
+	<a href="/img/rechargeable-batteries/apple-magic-mouse-with-rechargeable-nimh-batteries.jpg">
+		<img src="/img/rechargeable-batteries/apple-magic-mouse-with-rechargeable-nimh-batteries.jpg" width="100%"/>
+	</a>
+	<p class="caption">
+		Rechargeable batteries work fine in Apple's magic mouse. The batteries shown are 1.2V 2450mAh "Sanyo Eneloop" NiMH cells. 
+	</p>
+</div>
