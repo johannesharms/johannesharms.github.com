@@ -1,7 +1,7 @@
 ---
 layout: 'post'
 title: 'Rechargeable batteries work great for Apples magic mouse and wireless keyboard'
-date: 2014-01-31
+date: 2014-02-17
 keywords: rechargeable, batteries, apple, magic mouse, wireless keyboard
 ---
 
