@@ -1,0 +1,12 @@
+---
+layout: 'post'
+title: 'How to sync reminders on Mac OS X: Refreshing the calendars will also sync the reminders'
+date: 2014-03-03
+keywords: sync, reminders, owncloud, mac, osx, tasks, todos, synchronize
+---
+
+The "Reminders" app that comes with recent apple computers does not feature a "Refresh" menu or button. As a workaround, I found that refreshing the calendars (in the "Calendar" app via menu entry "View > Refresh Calendars") will also sync the reminders.
+
+Background: I have set up "owncloud":http://www.owncloud.org on my own server and I am using it to sync my contacts and calendars. My notebook running Mac OS 10.9 (Mavericks) can out-of-the-box sync with Owncloud via CalDav and CardDav - it suffices to configure a corresponding account in Mac OS's system preferences. My Android phone syncs via the excellent "CalDavSync":https://play.google.com/store/apps/details?id=org.dmfs.caldav.lib and "CardDavSync":https://play.google.com/store/apps/details?id=org.dmfs.carddav.Sync apps by "Marten Gajda":https://play.google.com/store/apps/developer?id=Marten+Gajda. My todos currently do not sync since I am relying on "Things for Mac":https://culturedcode.com/things/ and Things cannot sync with Android. Instead, I might switch to using Mac OS X's "Reminders", synced via CalDav to my Owncloud server, with syncs to my Android phone via "CalDavSync":https://play.google.com/store/apps/details?id=org.dmfs.caldav.lib and "Tasks":https://play.google.com/store/apps/details?id=org.dmfs.tasks.
+
+Happy syncing!
