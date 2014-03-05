@@ -1,0 +1,13 @@
+---
+layout: 'post'
+title: 'Decrypt email permanently'
+date: 2014-03-05
+keywords: email, encryption, gpg, pgp, enigmail, permanent decryption
+---
+
+
+Please fund "this issue":https://freedomsponsors.org/core/issue/435/decrypt-messages-permanently on "freedomsponsors.org":https://freedomsponsors.org!
+
+One of the main reasons why I currently do not use encrypted email is that messages cannot be permanently decrypted. This drawback produces a lock-in situation because in order to keep my old mail, I would - from now on to an indeterminate future- have to use a mail client compatible to whatever encryption I may start using now. 
+
+The above mentioned "issue on freedomsponsors.org":https://freedomsponsors.org/core/issue/435/decrypt-messages-permanently promises to solve this problem by collecting money for a developer to implement permanent email decryption. I sponsored the project with a little sum. Go ahead and do the same!
