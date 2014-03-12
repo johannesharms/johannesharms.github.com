@@ -6,5 +6,12 @@ keywords: security, surveillance, NSA
 ---
 
 
-A current "document by Reporters without Border":http://en.rsf.org/enemies-of-the-internet-2014-11-03-2014,45985.html gives details on which governments and agencies worldwide threaten free press, privacy, and the openness of the internet. 
+A current "document by Reporters without Borders":http://en.rsf.org/enemies-of-the-internet-2014-11-03-2014,45985.html gives details on which governments and agencies worldwide threaten free press, privacy, and the openness of the internet. 
 
+
+<div class="figure">
+	<img src="/img/enemies-of-the-internet/avatars12Mars_16.png"/>
+	<p class="caption">
+		Campaign image to support "Reporters without Borders":http://12mars.rsf.org/2014-en/.
+	</p>
+</div>
