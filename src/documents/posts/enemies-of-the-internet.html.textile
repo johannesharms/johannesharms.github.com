@@ -1,0 +1,10 @@
+---
+layout: 'post'
+title: 'Enemies of the Internet documented by Reporters without Borders'
+date: 2014-03-12
+keywords: security, surveillance, NSA
+---
+
+
+A current "document by Reporters without Border":http://en.rsf.org/enemies-of-the-internet-2014-11-03-2014,45985.html gives details on which governments and agencies worldwide threaten free press, privacy, and the openness of the internet. 
+
