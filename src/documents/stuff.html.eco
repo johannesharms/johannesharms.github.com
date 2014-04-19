@@ -3,6 +3,7 @@ layout: 'empty'
 title: 'Stuff'
 menuTitle: 'Stuff'
 keywords: blog
+priority: 0.7
 ---
 
 <nav typeof="SiteNavigationElement">

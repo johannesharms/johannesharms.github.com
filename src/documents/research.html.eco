@@ -3,6 +3,7 @@ layout: 'empty'
 title: 'Research Notes'
 menuTitle: 'Research'
 keywords: research, blog
+priority: 0.9
 ---
 
 <nav typeof="SiteNavigationElement">

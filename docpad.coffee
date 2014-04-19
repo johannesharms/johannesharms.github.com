@@ -184,6 +184,13 @@ docpadConfig = {
 				collection: 'stuff',
 				url: '/stuff.xml'
 
+		sitemap:
+			cachetime: 600000
+			changefreq: 'weekly'
+			priority: 0.5
+			filePath: 'sitemap.xml'
+			#collectionName: 'someCollectionName'
+
 	ignoreCustomPatterns:
 		///^_///
 }
