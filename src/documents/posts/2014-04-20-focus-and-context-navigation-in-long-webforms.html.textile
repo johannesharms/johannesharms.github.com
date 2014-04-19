@@ -1,0 +1,23 @@
+---
+layout: 'post'
+title: 'Applying the Focus and Context Principle to Navigation in Long Web Forms'
+category: 'research'
+date: 2014-04-20
+keywords: web forms, navigation, focus+context, information visualization
+---
+
+
+Navigation in long forms commonly employs user interface design patterns such as scrolling, tabs, and wizard steps. Since these patterns hide contextual form fields outside the viewport or behind other tabs or pages, my recent paper <a href="/publications.html#harms2014focuscontext">Harms, Johannes (2014)</a> proposes to apply the focus+context principle from information visualization to form design. 
+
+<!-- Read more -->
+
+<div class="figure">
+	<img src="/img/focus-context/levels-of-detail.png" width="100%"/>
+	<p class="caption">
+		Focus and Context Form Navigation is able to show each fieldset in varying levels of detail (LOD) 
+		depending on current degree of interest (DOI).
+		Graphic taken from <a href="/publications.html#harms2014focuscontext">Harms, Johannes (2014)</a>.
+	</p>
+</div>
+
+The <a href="/publications.html#harms2014focuscontext">paper</a> presents a design space analysis to support usability engineering of focus+context form navigation. We evaluated the design space’s usefulness and applicability in a case study on forms in social network profile pages and found the design space has fostered creativity and helped to clearly document design decisions, indicating it can be a valuable support for engineering intelligent, form-based user interfaces.
