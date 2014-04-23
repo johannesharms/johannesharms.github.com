@@ -3,6 +3,7 @@ layout: 'post'
 title: 'Flying above the clouds'
 date: 2014-01-19
 keywords: rc, plane, video
+description: Beautiful video of an RC plane
 ---
 
 

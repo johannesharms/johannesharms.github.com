@@ -3,6 +3,7 @@ layout: 'post'
 title: 'Compiling CRRCSim on Mac OS 10.9 Mavericks'
 date: 2014-01-12
 keywords: crrcsim, mac, osx, compiling, building, how to, howto, binary
+description: How to compile CRRCSim on Mac OS 10.9 (Mavericks)
 ---
 
 

@@ -4,6 +4,7 @@ title: 'Applying the Focus and Context Principle to Navigation in Long Web Forms
 category: 'research'
 date: 2014-04-20
 keywords: web forms, navigation, focus+context, information visualization
+description: The Focus+Context principle can be used to improve navigation in long web forms
 ---
 
 
