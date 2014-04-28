@@ -47,4 +47,4 @@ h2. Literature
 
 [<a id="fn1">1</a>] <a href="/publications.html#harms2013researchgoals">Harms, Johannes (2013)</a>. Research Goals for Evolving the ‘Form’ User Interface Metaphor towards more Interactivity. Human Factors in Computing and Informatics, volume 7946 of Lecture Notes in Computer Science, pages 819–822. Springer Berlin Heidelberg. 
 
-[<a id="fn2">2</a>] Derndorfer, C. (2013). A design space for user interface design in collaborative systems. Bachelor Thesis, supervised by Johannes Harms.
+[<a id="fn2">2</a>] "Derndorfer, C.":http://derndorfer.eu/ (2013). A design space for user interface design in collaborative systems. Bachelor Thesis, supervised by Johannes Harms.
