@@ -1,0 +1,50 @@
+---
+layout: 'post'
+title: 'Rapid Prototyping of Collaborative Web Forms'
+category: 'research'
+date: 2014-04-28
+keywords: web forms, collaboration, cscw
+description: Future work should investigate rapid prototyping tools for collaborative web forms
+---
+
+Collaborative form filling is poorly supported in electronic web forms. To improve the situation, future research should provide rapid prototyping tools to easy design, implementation, and evaluation of collaborative form-based user interfaces.
+
+<!-- Read more -->
+
+h2. Exemplary Scenario in e-Health
+
+A real-world example and scenario, taken from [[1]]: In a form-based, medical documentation software, users were observed shouting across rooms to find out who else was documenting at the same time. The forms did not update in real-time and did not provide enough awareness about concurrent usage. Moreover, data entry was complicated because the length of most forms required a lot of scrolling. This scenario demonstrates the practical need for better, more interactive forms.
+
+<div class="figure">
+	<img src="/img/collaborative-form-filling/hgraph.jpg" width="100%"/>
+	<p class="caption">
+		Exemplary, collaborative e-Health application. Graphic from "hgraph.org":http://www.hgraph.org  / "Junan Sonin on flickr":https://flic.kr/p/cJorC1 under "CreativeCommon-By License":https://creativecommons.org/licenses/by/2.0/.
+	</p>
+</div>
+
+h2. Exemplary Scenario in e-Government
+
+Filling and submitting e-government application forms are typically a collaborative process where citizens and officers fill different form sections and assist each other by providing information and explanations. To better assist this collaborative process in government offices, the electronic form (or parts thereof) could be shown to both citizen and officer, with real-time propagation of updated form contents.
+
+<div class="figure">
+	<img src="/img/collaborative-form-filling/office.jpg" width="100%"/>
+	<p class="caption">
+		Office desk and booth. Graphic modified from "flickr":https://flic.kr/p/ai7ytS, under "Creative Commons By-NC-SA license":https://creativecommons.org/licenses/by/2.0/.
+	</p>
+</div>
+
+
+h2. Towards a Rapid Prototyping Framework for Real-Time Collaborative Web Forms
+
+Collaborative Web forms are not easy to build. From an IX (interaction design) point of view, you will have to think about how to enable collaboration for usage at different times and locations, how to design for awareness, how to sync / lock / merge in a way that scales for the intended number of users, and how to track and visualize versions [[2]]. From a technical point of view, you will have to implement these things -- and possibly implement them multiple times if subsequent usability evaluation shows that design options would have been more suitable.
+
+A rapid prototying framework to enable early usability evaluations of form-based, collaborative user interfaces would thus be beneficial. For this purpose, general-purpose collaboration / cobrowsing tools such as "TogetherJS":https://togetherjs.com/ could be used, but tools that are more specifically geared for use with web forms may be better suited, compare "raphaelstary/reco":https://github.com/raphaelstary/reco on Github.
+
+
+
+
+h2. Literature
+
+[<a id="fn1">1</a>] <a href="/publications.html#harms2013researchgoals">Harms, Johannes (2013)</a>. Research Goals for Evolving the ‘Form’ User Interface Metaphor towards more Interactivity. Human Factors in Computing and Informatics, volume 7946 of Lecture Notes in Computer Science, pages 819–822. Springer Berlin Heidelberg. 
+
+[<a id="fn2">2</a>] Derndorfer, C. (2013). A design space for user interface design in collaborative systems. Bachelor Thesis, supervised by Johannes Harms.

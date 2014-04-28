@@ -419,3 +419,8 @@ emph {
 *[typeof="ScholarlyArticle"] [property~=headline] {
 	font-weight: bold;
 }
+
+sup.footnote {
+	top: 0;
+	font-size: 100%;
+}
