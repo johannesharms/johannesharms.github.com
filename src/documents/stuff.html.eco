@@ -2,6 +2,7 @@
 layout: 'empty'
 title: 'Stuff'
 menuTitle: 'Stuff'
+menuOrder: 4
 keywords: blog
 description: Miscellaneous blog posts
 priority: 0.7

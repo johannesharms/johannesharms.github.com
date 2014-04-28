@@ -2,6 +2,7 @@
 layout: 'empty'
 title: 'Research Notes'
 menuTitle: 'Research'
+menuOrder: 3
 keywords: research, blog
 description: Research Notes
 priority: 0.9
