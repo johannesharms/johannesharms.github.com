@@ -36,7 +36,8 @@ Filling and submitting e-government application forms are typically a collaborat
 
 h2. Towards a Rapid Prototyping Framework for Real-Time Collaborative Web Forms
 
-Collaborative Web forms are not easy to build. From an IX (interaction design) point of view, you will have to think about how to enable collaboration for usage at different times and locations, how to design for awareness, how to sync / lock / merge in a way that scales for the intended number of users, and how to track and visualize versions [[2]]. From a technical point of view, you will have to implement these things -- and possibly implement them multiple times if subsequent usability evaluation shows that design options would have been more suitable.
+Collaborative Web forms are not easy to build. From an IX (interaction design) point of view, you will have to think about how to enable collaboration for usage at different times and locations, how to design for awareness, how to sync / lock / merge in a way that scales for the intended number of users, and how to track and visualize versions, as described in <a href="http://derndorfer.eu" target="_blank">Christoph Derndorfer</a>'s thesis [[2]]. From a technical point of view, you will have to implement these things -- and possibly implement them multiple times if subsequent usability evaluation shows that design options would have been more suitable. 
+
 
 A rapid prototying framework to enable early usability evaluations of form-based, collaborative user interfaces would thus be beneficial. For this purpose, general-purpose collaboration / cobrowsing tools such as "TogetherJS":https://togetherjs.com/ could be used, but tools that are more specifically geared for use with web forms may be better suited, compare "raphaelstary/reco":https://github.com/raphaelstary/reco on Github.
 
@@ -45,6 +46,6 @@ A rapid prototying framework to enable early usability evaluations of form-based
 
 h2. Literature
 
-[<a id="fn1">1</a>] <a href="/publications.html#harms2013researchgoals">Harms, Johannes (2013)</a>. Research Goals for Evolving the ‘Form’ User Interface Metaphor towards more Interactivity. Human Factors in Computing and Informatics, volume 7946 of Lecture Notes in Computer Science, pages 819–822. Springer Berlin Heidelberg. 
+[<a id="fn1">1</a>] <a href="/publications.html#harms2013researchgoals">Harms, Johannes (2013)</a>. Research Goals for Evolving the ‘Form’ User Interface Metaphor towards more Interactivity. Human Factors in Computing and Informatics, volume 7946 of Lecture Notes in Computer Science, pages 819–822. Springer Berlin Heidelberg. <a rel="citation" href="/publications/harms2013researchgoals.bib">BibTeX</a>, <a rel="text" href="/publications/harms2013researchgoals.pdf">PDF</a>, <a rel="text" href="http://dx.doi.org/10.1007/978-3-642-39062-3_60" target="_blank">DOI</a>.
 
-[<a id="fn2">2</a>] "Derndorfer, C.":http://derndorfer.eu/ (2013). A design space for user interface design in collaborative systems. Bachelor Thesis, supervised by Johannes Harms.
+[<a id="fn2">2</a>] "Derndorfer, C.":http://derndorfer.eu/ (2013). A design space for user interface design in collaborative systems. Bachelor Thesis, supervised by Johannes Harms. "PDF":/publications/derndorfer2013collaboration.pdf, "BibTeX":/publications/derndorfer2014collaboration.bib.
