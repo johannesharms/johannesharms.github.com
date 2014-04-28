@@ -18,8 +18,17 @@ priority: 0.9
 	I have been working in this field with the <a href="http://deco.inso.tuwien.ac.at">DECO</a> research group since 2009. 
 	I am now writing my PhD thesis about web form design,
 	exploring innovative ways to improve the usability and interactivity of form-filling interfaces.
+	Specific research topics include:
 </p>
 
+<ul class="bulletList">
+	<li>Navigation in Long Forms</li>
+	<li>Gamification of Online Surveys</li>
+	<li>Collaborative Web Forms</li>
+	<li>History and Future of the "Form" User Interface Metapher</li>
+	<li>Multimodal Data Entry in Form-based User Interfaces</li>
+	<li>JavaScript Form Frameworks</li>
+</ul>
 
 <div typeof="Blog">
 	
