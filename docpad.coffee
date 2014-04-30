@@ -200,7 +200,8 @@ docpadConfig = {
 				skipFiles: ///
 					\.js |
 					\.css |
-					^posts
+					^posts |
+					^404
 				///
 
 			moment:
