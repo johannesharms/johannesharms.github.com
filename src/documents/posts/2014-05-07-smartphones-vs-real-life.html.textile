@@ -1,0 +1,21 @@
+---
+layout: 'post'
+title: 'Smartphones and Facebook vs. the Real Life'
+date: 2014-05-07
+keywords: smartphones, facebook, critique of technology
+description: Beautiful video of an RC plane
+---
+
+
+The "Look Up":http://youtu.be/Z7dLU6fk9QY video argues that smartphones and facebook replace real-world relationships and emotions with dull, technical systems. In order to regain our real lives and find true love, the video's author "Gary Turk":http://www.youtube.com/channel/UCfHJe1XCvPckXPcgKh2V-5A urges us to look up and switch those displays and devices off. I perceive some of the video's critique of technology as overly negative and one-sided, but the author does make his point strongly and emotionally.
+
+<!-- Read more -->
+
+<div class="figure">
+	<iframe width="560" height="315" src="//www.youtube.com/embed/Z7dLU6fk9QY" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">
+		The "Look Up":http://youtu.be/Z7dLU6fk9QY video.
+	</p>
+</div>
+
+
