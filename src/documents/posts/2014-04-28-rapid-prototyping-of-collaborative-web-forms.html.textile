@@ -7,7 +7,7 @@ keywords: web forms, collaboration, cscw
 description: Future work should investigate rapid prototyping tools for collaborative web forms
 ---
 
-Collaborative form filling is poorly supported in electronic web forms. To improve the situation, future research should provide rapid prototyping tools to easy design, implementation, and evaluation of collaborative form-based user interfaces.
+Collaborative form filling is poorly supported in electronic web forms. To improve the situation, future research should provide rapid prototyping tools to ease design, implementation, and evaluation of collaborative form-based user interfaces.
 
 <!-- Read more -->
 
