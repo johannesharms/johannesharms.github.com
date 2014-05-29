@@ -16,11 +16,15 @@ priority: 0.9
 
 	<h1 property="headline"><%= @document.title %></h1>
 
-	<p>My research interests include human-computer interaction, usability, user experience, and web engineering. 
-		I have been working in this field with the <a href="http://deco.inso.tuwien.ac.at">DECO</a> research group since 2009. 
-		I am now writing my PhD thesis about web form design,
+	<p>My research interests include human-computer interaction, usability, user experience, and web engineering.
+		This section contains research-related blog posts. 
+		See my <a href="publications.html">list of publications</a> for peer-reviewed articles. 
+	</p>
+	
+	<p>
+		I am currently writing my PhD thesis about web form design,
 		exploring innovative ways to improve the usability and interactivity of form-filling interfaces.
-		Specific research topics include:
+		Specific research interests include:
 	</p>
 
 	<ul class="bulletList">
@@ -31,8 +35,6 @@ priority: 0.9
 		<li>Multimodal Data Entry in Form-based User Interfaces</li>
 		<li>JavaScript Form Frameworks</li>
 	</ul>
-
-	This section contains notes and blog posts on my research - also see my <a href="publications.html">list of publications</a>.
 
 	<hr/>
 </section>
