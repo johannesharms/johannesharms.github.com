@@ -12,23 +12,31 @@ priority: 0.9
 	<%- @partial('menu.html.eco', {menuItems: @generateMenu(@document.url)}) %>
 </nav>
 
-<h1 property="headline"><%= @document.title %></h1>
+<section class="left">
 
-<p>My research interests include human-computer interaction, usability, user experience, and web engineering. 
-	I have been working in this field with the <a href="http://deco.inso.tuwien.ac.at">DECO</a> research group since 2009. 
-	I am now writing my PhD thesis about web form design,
-	exploring innovative ways to improve the usability and interactivity of form-filling interfaces.
-	Specific research topics include:
-</p>
+	<h1 property="headline"><%= @document.title %></h1>
 
-<ul class="bulletList">
-	<li>Navigation in Long Forms</li>
-	<li>Gamification of Online Surveys</li>
-	<li>Collaborative Web Forms</li>
-	<li>History and Future of the "Form" User Interface Metapher</li>
-	<li>Multimodal Data Entry in Form-based User Interfaces</li>
-	<li>JavaScript Form Frameworks</li>
-</ul>
+	<p>My research interests include human-computer interaction, usability, user experience, and web engineering. 
+		I have been working in this field with the <a href="http://deco.inso.tuwien.ac.at">DECO</a> research group since 2009. 
+		I am now writing my PhD thesis about web form design,
+		exploring innovative ways to improve the usability and interactivity of form-filling interfaces.
+		Specific research topics include:
+	</p>
+
+	<ul class="bulletList">
+		<li>Navigation in Long Forms</li>
+		<li>Gamification of Online Surveys</li>
+		<li>Collaborative Web Forms</li>
+		<li>History and Future of the "Form" User Interface Metapher</li>
+		<li>Multimodal Data Entry in Form-based User Interfaces</li>
+		<li>JavaScript Form Frameworks</li>
+	</ul>
+
+	This section contains notes and blog posts on my research - also see my <a href="publications.html">list of publications</a>.
+
+	<hr/>
+</section>
+
 
 <div typeof="Blog">
 	
