@@ -405,6 +405,12 @@ article ul > li:before {
 	position: absolute;
 	left: -1em;
 }
+.bulletList .bulletlist > li,
+.bulletList ul > li,
+ul .bulletlist > li,
+ul ul > li {
+	margin-bottom: 0.5em;
+}
 
 emph {
 	font-weight: bold;

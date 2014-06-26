@@ -1,0 +1,58 @@
+---
+layout: 'post'
+title: 'New paper presented at EICS conference: Focus+Context Navigation in Long Web Forms'
+category: 'research'
+date: 2014-06-26
+keywords: web forms, navigation, focus+context, information visualization, EICS, conference, paper
+description: At the EICS conference, I presented a Design Space for how the Focus+Context principle can be used to improve navigation in long web forms.
+---
+
+Last week, I presented a <a href="/publications.html#harms2014focuscontext">new paper</a> in the "adaptation session":http://eics2014.org/index.php?content=6#ADAPTATION of the "EICS 2014 conference":http://eics2014.org/. In the paper, I put forth a design space (i.e., a space of possible design options) for how form design can dynamically adapt to the user's (ever changing) focus of interest in order to improve navigation and understanding. 
+
+<!-- Read more -->
+
+In a "previous blog post":/posts/2014-04-20-focus-and-context-navigation-in-long-webforms.html, I have already provided an example of how fieldsets can dynamically adapt by rendering in various levels of detail. In addition, the paper describes a plethora of other design options for both DOI (degree of interest) calculation and subsequent visualization of form-based UIs in various LODs (levels of detail), taken from Table 3 in <a href="/publications.html#harms2014focuscontext">my paper</a>, as shown in below:
+
+* *DOI (degree of interest) computation:*
+** A-priori importance of form elements:
+*** Manually assigned by the form author
+*** Automatically derived from the form schema
+** User interest may be modelled as follows:
+*** As a single focal point (whereas a UI element's importance is calculated as distance from the focal point)
+*** As multiple foci
+*** Or even more generally: As (discrete or continuous) distributions of interest
+** Granularity of DOI computation:
+*** Per control
+*** Per field (whereas one field can be composed of multiple controls)
+*** Per fieldset
+*** Per form section
+*** Per page (as in static web forms where the entire form is assigned constant DOI)
+** Timing of DOI computation:
+*** During use (necessary and typical for focus+context UIs)
+*** Pre-use (to take a-priori importance of form elements into account)
+*** Post-use (to adapt the UIs between usage sessions)
+** Influencing factors:
+*** User characteristics (e.g., user group, physical or psychological characteristics)
+*** User behavior (e.g., mouse clicks, scrolling, eye movement)
+*** Domain-specific factors (e.g., co-relevance of certain form fields, higher relevance of fields with errorneous data)
+
+* *LOD (level of detail) visualization:*
+** Influencing factors:
+*** DOI values (as computed in the DOI computation described above)
+*** The available display space (e.g., to squeeze a UI into the available screen space)
+** Number of LODs:
+*** Multiple, discrete LODs (resulting from filtering, aggregation, and highlighting)
+*** An infinite number of continuous LODs (resulting from distortion and scaling techniques)
+*** Note that traditional form design only uses one single level of detail.
+** Techniques for making space:
+*** Semantic approaches: Filtering, aggregation
+*** Visual approaches: Scaling, distortion, highlighting
+*** Layout: Block movement, deformation, overlays, outside allocation of additional space
+** Applying the above space-making techniques to form elements:
+*** Labels, values, and form controls
+*** Hints and validation errors
+*** Selection fields and their corresponding options (e.g., hiding un-selected options)
+*** Composite fields, fieldsets, form layouts
+
+
+In summary, the above design space (further explicated in my paper <a href="/publications.html#harms2014focuscontext">Harms (2014) Focus & Context</a>) can provide form designers with inspiration (thus fostering creativity) and vocabulary (thus helping to make and document design decisions) regarding dynamic and adaptive navigation in long web forms.
