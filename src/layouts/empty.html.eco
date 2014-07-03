@@ -40,6 +40,6 @@
 	</p>
 
 	<!-- DocPad Scripts + Our Own -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML().add(@document.scripts) %>
+	<%- @getBlock('scripts').add(@site.scripts).add(@document.scripts).toHTML() %>
 </body>
 </html>
