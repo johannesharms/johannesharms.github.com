@@ -1,0 +1,18 @@
+---
+layout: 'post'
+title: 'Sydney Hobart 1998: Impressive Video Documentary of Sailing Race in Severe Storm'
+category: 'stuff'
+date: 2014-10-04
+keywords: sailing, storm, ocean, race, video, film
+description: Impressive footage of the sailing tragedy in the 1998 race from Sydney to Hobart
+---
+
+Go watch this impressive documentary on one of the biggest tragedies in sailing history, the 1998 ocean race from Sydney to Hobart. 
+
+<!-- Read more -->
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/wgsp_kHicu8" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/Z5554FxUXwg" frameborder="0" allowfullscreen></iframe>
+
+
