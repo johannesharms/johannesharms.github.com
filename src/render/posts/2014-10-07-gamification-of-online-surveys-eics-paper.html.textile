@@ -1,0 +1,83 @@
+---
+layout: 'post'
+title: 'New Paper Accepted at NordiCHI 2014 Conference: Gamification of Online Surveys'
+category: 'research'
+date: 2014-10-07
+keywords: web forms, online surveys, gamification, NordiCHI'14, conference, paper
+description: A new paper was accepted at the NordiCHI 2015 conference: "Gamification of Online Surveys: Conceptual Foundations and a Design Method based on the MDA Framework".
+---
+
+In a few days, we will present a <a href="/publications.html#harms2014gamification">new paper</a> [[1]] at the "NordiCHI 2014 conference":http://nordichi2014.org/ in Helsinki. In the paper, we put forth a well-structured process for gamifying online surveys. Download the <a rel="text" href="/publications/harms2014gamification.pdf">PDF</a> and read the paper!
+
+<!-- Read more -->
+
+Prior work on gamified surveys has primarily evaluated psychological and behavioral outcomes, but has been unclear about design methods and best practices. In contrast, our paper seeks to provide a well-structured design process that unifies Jarret's "three layers of form design" [[3]], general-purpose usability engineering processes, and the MDA (mechanics, dynamics, aesthetics) framework [[2]]. 
+
+
+h2. Conceptual Foundations of Online Survey Gamification
+
+The paper first provides theoretical foundations by discussing three relevant design dimensions (game elements according to the MDA framework, survey areas, and the design process). 
+
+<div class="figure">
+	<img src="/img/gamification-of-online-surveys/design-dimensions.png" width="100%" />
+	<p class="caption">
+		Three design dimensions in the gamification of online surveys: gamification (i.e., game elements from the MDA framework [[2]]), surveys (i.e., areas in the survey to be gamified), and form design (Jarret’s three layers of form design [[3]]).
+	</p>
+</div>
+
+
+h2. A Unified Design Process for Gamifying Online Surveys
+
+Based on the above foundations, our paper [[1]] proposes a unified survey gamification process. The proposed process uses lists of game elements (aesthetics, dynamics, and mechanics) provided in related work [[2]] [[4]] for inspiration. It iteratively progresses in three phases:
+
+<div class="figure">
+
+* *1. Aesthetics and the Relationship Layer*
+** Designers choose target aesthetics as goals for the intended user experience of the gamified survey. These decisions should be based on an analysis of users, tasks, and context (as typical for analysis phases in usability engineering process). Jarret's excellent book describes the analysis in terms of a "relationship layer" of form design.
+
+* *2. Dynamics and the Conversation Layer*
+** To realize the intended aesthetics, designers choose suited game dynamics that will produce the aesthetics when played by users. In a gamified survey, game dynamics correspond to how form filling changes over time, e.g., whether it becomes more easy or difficult and whether time pressure build up. This time-variant behavior is also captured in Jarret's "conversation layer" of form design.
+
+* *3. Mechanics and the Conversation and Appearance Layers*
+** To produce the intended dynamics, designers choose suited game mechanics. Game mechanics are the basic, interactive building blocks of a game, e.g., points, badges, leaderboards, avatars... Design activities in this phase correspond to detailed UI design, as e.g. described in Jarret's "appearance and conversation layers" of form design.
+
+* *Prototyping, Evaluation and Iteration*
+** The resulting concept should be prototyped and evaluated in a formative usability evaluation. This will typically lead desigerns to correct errors and re-consider design decisions in order to improve the gamified survey. The modified concept should be prototyped and evaluated again.
+
+<p class="caption">
+	The proposed process for gamifying online surveys unifies the MDA framework, Jarret's three layers of form design, and general-purpose usability engineering processes.
+</p>
+</div>
+
+
+h2. Pre-liminary Results
+
+An earlier variant of the process has been proposed in Birgit Wlaschits' diploma thesis [[4]]. She also employed the process in a case study where she designed a gamified online survey, some screenshots of which shall be presented in the following:
+
+<div class="figure">
+	<img src="/img/gamification-of-online-surveys/screenshot-01.png" width="100%" style="margin-bottom: 1em;"/>
+	<img src="/img/gamification-of-online-surveys/screenshot-02.png" width="100%" style="margin-bottom: 1em;"/>
+	<img src="/img/gamification-of-online-surveys/screenshot-08.png" width="100%" style="margin-bottom: 1em;"/>
+	<img src="/img/gamification-of-online-surveys/screenshot-11.png" width="100%" style="margin-bottom: 1em;"/>
+	<img src="/img/gamification-of-online-surveys/screenshot-12.png" width="100%" style="margin-bottom: 1em;"/>
+	<p class="caption">
+		Screenshots of the gamified survey that Birgit Wlaschits designed in her diploma thesis [[4]] using an earlier version of the proposed process for suvey gamification.
+	</p>
+</div>
+
+Experience from the above case study strongly supports the usefulness and applicability of the proposed process. We therefore put forth the MDA-based process for gamifying online surveys for further discussion, evaluation, and application in the CHI community. 
+
+Go read the <a href="/publications.html#harms2014gamification">paper</a>! ;-)
+
+
+h2. Literature
+
+[<a id="fn1">1</a>] Harms, J., Wimmer, C., Kappel, K., and Grechenig, T. Gamification of online surveys: conceptual foundations and a design process based on the MDA framework. In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: Fun, Fast, Foundational, ACM (2014), 565–568. <a rel="citation" href="/publications/harms2014gamification.bib">BibTeX</a> <a rel="text" href="/publications/harms2014gamification.pdf">PDF</a> <a rel="text" href="http://dx.doi.org/10.1145/2639189.2639230" target="_blank">DOI</a>
+
+[<a id="fn1">2</a>] Hunicke, R., LeBlanc, M., and Zubek, R. Mda: A formal approach to game design and game research. In Proceedings of the AAAI-04 Workshop on Challenges in Game AI (2004), 1–5.
+
+[<a id="fn1">3</a>] Jarrett, C., and Gaffney, G. Forms that work: designing web forms for usability. Morgan Kaufmann, 2008.
+
+[<a id="fn1">4</a>] Wlaschits, B. Gamifizierung von elektronischen Umfrageformularen: Design und Experten-Evaluierung. Master’s thesis, supervised by Thomas Grechenig and Johannes Harms, 2014.
+
+
