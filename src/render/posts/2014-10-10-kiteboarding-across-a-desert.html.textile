@@ -1,0 +1,16 @@
+---
+layout: 'post'
+title: 'Kiteboarding Race across a Brazilian Desert'
+category: 'stuff'
+date: 2014-10-10
+keywords: kiteboarding, race, video, film
+description: Awesome video of kiteboarders crossing a lagoon-filled desert in northern Brasil.
+---
+
+Equal parts kiteboarding, sand surfing, and running. Watch this awesome video of kiteboarders crossing a lagoon-filled desert in northern Brasil.
+
+<!-- Read more -->
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/WOyxdQR0jqU" frameborder="0" allowfullscreen></iframe>
+
+(by Red Bull Media House on Youtube)
