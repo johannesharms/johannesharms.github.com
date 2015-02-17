@@ -8,6 +8,8 @@ truncatise = require('truncatise')
 
 docpadConfig = {
 
+	prompts: false  # to avoid nagging questions
+
 	outPath: 'out'
 	srcPath: 'src'
 
