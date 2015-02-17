@@ -1,0 +1,16 @@
+---
+layout: 'post'
+title: 'We are all experts'
+category: 'stuff'
+date: 2015-02-17
+keywords: comedy, video, youtube, experts
+description: Video sketch of a poor guy's "expert" role.
+---
+
+Video sketch of a guy having a hard time as an "expert". The real problem is his manager who just want to hear "everything can be done", and a customer with contradictory requirements. 
+
+<!-- Read more -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BKorP55Aqvg" frameborder="0" allowfullscreen></iframe>
+
+(by Lauris Beinerts on Youtube)
