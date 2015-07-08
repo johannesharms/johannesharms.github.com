@@ -1,0 +1,10 @@
+# TEAM
+
+    Johannes Harms -- Autor der Seite -- johannesharms.com
+
+
+# TECHNOLOGY COLOPHON
+
+    Docpad
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
