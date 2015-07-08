@@ -9,7 +9,7 @@ h2 { font-size:1.33333em; }
 h3 { font-size:1.16667em; padding:1.82143em 0; }
 
 body, a {
-	color:#666;
+	color:#555;
 	font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weigth: 400;
 	word-wrap:break-word;
@@ -115,11 +115,16 @@ a:hover {
 
 .marker-yellow {
 	background-color: #fefc78;
-	color: #555;
+	color: #444;
 }
 
 .marker-green {
 	background: #a5fef1;
+	color: #444;
+}
+
+.marker-purple {
+	background: #d8b5ff;
 	color: #444;
 }
 
@@ -145,7 +150,7 @@ blockquote {
 @media screen {
 	
 	body {
-		background: #fbfbfb url('../img/noise.png');
+		/*background: #fbfbfb url('../img/noise.png');*/
 		padding: 10px;
 	}
 
@@ -155,13 +160,13 @@ blockquote {
 	}
 
 	::selection {
-		background: #d8b5ff;
-		color: #555;
+		background: #a5fef1;
+		color: #444;
 	}
 	
 	::-moz-selection {
-		background: #d8b5ff;
-		color: #555;
+		background: #a5fef1;
+		color: #444;
 	}
 }
 
