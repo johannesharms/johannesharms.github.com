@@ -52,7 +52,7 @@ ul {
 
 /* TYPOGRAPHY, MEDIUM SCREENS */
 
-@media print, screen and (min-width: 726px) {
+@media print, screen and (min-width: 780px) {
 	
 	/* 14px, 1.25 line-height, 3:5 stranded, h1 +1 */
 	body { font-size:87.5%; line-height:1.5; }
@@ -197,7 +197,7 @@ footer {
 
 /* LAYOUT (TABLET, MEDIUM SCREEN) */
 
-@media print, screen and (min-width: 726px) {
+@media print, screen and (min-width: 780px) {
 	
 	body {
 		padding: 20px;
@@ -215,13 +215,13 @@ footer {
 	section.left,
 	footer.left,
 	nav.left {
-		margin-right: 380px;
+		margin-right: 370px;
 	}
 	
 	section.right, 
 	footer.right,
 	nav.right {
-		margin-left: 380px;
+		margin-left: 370px;
 	}
 }
 

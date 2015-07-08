@@ -9,3 +9,5 @@ require('http').createServer(function (request, response) {
         fileServer.serve(request, response);
     }).resume();
 }).listen(3000);
+
+console.log('Server listening on localhost:3000');
