@@ -142,12 +142,6 @@ blockquote {
 /* TYPOGRAPHY, SCREEN-ONLY FEATURES */
 
 @media screen {
-	
-	body {
-		background: white;
-		padding: 10px;
-	}
-
 	h1, 
 	h2 {
 		text-shadow: 1px 1px 1px #f5f5f5;
@@ -194,8 +188,14 @@ footer {
 @media print, screen and (min-width: 780px) {
 	
 	body {
-		padding: 20px;
+		background-color: #f1f1f1;
 		word-wrap: normal;
+	}
+
+	article {
+		display: inline-block;
+		background-color: white;
+		padding: 20px;
 	}
 	
 	header.left {
