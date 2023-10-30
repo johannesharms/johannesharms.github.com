@@ -184,7 +184,7 @@ a:hover {
 }
 
 @media screen and (min-width: 780px) and (prefers-color-scheme: dark) {
-	body { background-color: #ccc; }
+	body { background-color: #999; }
 	article { background-color: #666; }
 }
 
