@@ -5,6 +5,6 @@
 
 # TECHNOLOGY COLOPHON
 
-    Docpad
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    HTML5
+    CSS3
+    Normalize.css
