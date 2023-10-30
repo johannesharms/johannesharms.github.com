@@ -11,7 +11,7 @@ h3 { font-size:1.16667em; padding:1.82143em 0; }
 body, a {
 	color:#555;
 	font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weigth: 400;
+	font-weight: 400;
 	word-wrap:break-word;
 }
 
@@ -109,22 +109,16 @@ ul {
 /* TYPOGRAPHY, COLORS */
 
 a:hover {
-	background-color: #fefc78;
+	background-color: #fff9c0;
 	color: #555;
 }
 
-.marker-yellow {
-	background-color: #fefc78;
-	color: #444;
+mark {
+	background-color: #a5fef1;
 }
 
-.marker-green {
-	background: #a5fef1;
-	color: #444;
-}
-
-.marker-purple {
-	background: #d8b5ff;
+mark.yellow {
+	background-color: #fff9c0;
 	color: #444;
 }
 
@@ -135,7 +129,7 @@ b,
 
 .dark, 
 .dark a {
-	color: #222;
+	color: black;
 }
 
 blockquote {
@@ -150,7 +144,7 @@ blockquote {
 @media screen {
 	
 	body {
-		/*background: #fbfbfb url('../img/noise.png');*/
+		background: white;
 		padding: 10px;
 	}
 
