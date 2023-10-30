@@ -113,15 +113,6 @@ a:hover {
 	color: #555;
 }
 
-mark {
-	background-color: #a5fef1;
-}
-
-mark.yellow {
-	background-color: #fff9c0;
-	color: #444;
-}
-
 b, 
 .bold {
 	font-weight: 700;
@@ -249,83 +240,6 @@ footer {
 }
 
 
-/* NAVIGATION BAR (TABS) */
-
-nav {
-	padding-top: 1.5em;
-}
-
-nav ol {
-	padding: 0;
-}
-
-nav ol li {
-	display: inline-block;
-	margin-right: 0.5em;
-	margin-bottom: 1em;
-	position: relative;
-}
-
-nav ol li .bkg {
-	background-color: #d8b5ff;
-	color: #555;    
-	width:100%;
-	height:100%;
-	transform: skew(-10deg);
-	-o-transform: skew(-10deg);
-	-moz-transform: skew(-10deg);
-	-webkit-transform: skew(-10deg);
-	position: absolute;
-	z-index: -1;
-}
-
-nav ol li:hover .bkg {
-	background: #a5fef1;
-	color: #444;    
-}
-
-nav ol li.active .bkg {
-	background-color: #a5fef1;
-}
-
-nav ol li a {
-	line-height: 200%;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	text-decoration: none;
-	z-index: +1;
-}
-
-nav ol li.active, 
-nav ol li.active a {
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #eaeaea;
-}
-
-nav ol li:hover a, 
-nav ol li a:hover {
-	background-color: transparent;
-	text-decoration: underline;
-}
-
-
-
-
-/* NAVIGATION BAR (TABS) ...ON LARGE SCREENS */
-
-@media all and (min-width: 726px) {
-	nav ul li {
-		margin-right: 1em;
-	}
-	
-	nav ul li a {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-	
-}
-
-
 /* START PAGE, PORTRAIT IMAGE */
 
 header .portrait {
@@ -356,16 +270,6 @@ header .portrait .sorry {
 }
 
 
-/* POST LISTS */
-
-.post-list h3 {
-	padding: 0.82143em 0;
-}
-
-.post-list p + section {
-	margin-top: -2em;
-}
-
 /* MISC */
 
 .invisible {
@@ -377,7 +281,7 @@ header .portrait .sorry {
 	background-color: white;
 	margin: 1em 0;
 	padding: 5px;
-	positon: relative;
+	position: relative;
 }
 
 .figure img {
