@@ -279,8 +279,8 @@ header .portrait {
 
 header .portrait img {
 	border: 4px solid white;
-	height: 250px;
-	width: 250px;
+	height: 169px;
+	width: 300px;
 	-webkit-box-shadow: 1px 2px 2px 0px rgba(60, 60, 60, 0.7);
 	box-shadow: 1px 2px 2px 0px rgba(60, 60, 60, 0.7);
 }
@@ -304,7 +304,7 @@ header .portrait .sorry {
 
 b, 
 .bold {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 blockquote {
@@ -357,7 +357,7 @@ ul ul > li {
 }
 
 emph {
-	font-weight: bold;
+	font-weight: 800;
 }
 
 .teaser .more {
@@ -367,7 +367,7 @@ emph {
 
 *[typeof="ScholarlyArticle"] [property~=name],
 *[typeof="ScholarlyArticle"] [property~=headline] {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 sup.footnote {
