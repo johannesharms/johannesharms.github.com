@@ -190,14 +190,12 @@ a:hover {
 
 /* LAYOUT */
 
-article.blogpost {
-	max-width: 60em;
+body {
+	padding: 5px;
 }
 
-header.left,
-header.right {
-	width: 300px;
-	margin-bottom: 2em;
+article.blogpost {
+	max-width: 60em;
 }
 
 section, 
@@ -210,6 +208,17 @@ footer {
 	margin-top: 3em;
 }
 
+header .portrait {
+	margin-bottom: 2em;
+	max-width: 100%;
+	position: relative;
+}
+
+header .portrait img {
+	max-width: 300px;
+}
+
+
 
 /* LAYOUT (TABLET, MEDIUM SCREEN) */
 
@@ -219,6 +228,11 @@ footer {
 		padding: 20px;
 	}
 	
+	header {
+		width: 300px;
+		margin-bottom: 2em;
+	}
+
 	header.left {
 		float: left;
 	}
@@ -238,6 +252,7 @@ footer {
 	nav.right {
 		margin-left: 370px;
 	}
+
 }
 
 
@@ -268,37 +283,6 @@ footer {
 		margin-left: 400px;
 	}
 }
-
-
-/* START PAGE, PORTRAIT IMAGE */
-
-header .portrait {
-	margin-bottom: 2em;
-	position: relative;
-}
-
-header .portrait img {
-	border: 4px solid white;
-	height: 169px;
-	width: 300px;
-	-webkit-box-shadow: 1px 2px 2px 0px rgba(60, 60, 60, 0.7);
-	box-shadow: 1px 2px 2px 0px rgba(60, 60, 60, 0.7);
-}
-
-header .portrait .sorry {
-	position: absolute;
-	text-align: center;
-	left: 25px;
-	width: 200px;
-	top: 120px;
-	height: 3em;
-	background-color: #ddd;
-	background-color: rgba(221, 221, 221, 0.5);
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-
 
 /* MISC */
 
